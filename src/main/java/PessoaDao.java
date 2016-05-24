@@ -15,12 +15,12 @@ import javax.persistence.PersistenceContext;
  * @author Luciana
  */
 @Stateless
-public class PessoaServiceImpl {
+public class PessoaDao {
 
     @PersistenceContext(unitName = "pos-atividade")
     private EntityManager em;
 
-    public PessoaServiceImpl() {
+    public PessoaDao() {
     }
     
     
